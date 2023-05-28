@@ -101,6 +101,12 @@ export const FRONTEND_SKILLS = [
     icon: 'logos:lodash',
     iconClasses: 'text-xl',
   },
+  {
+    label: 'React Native',
+    proficiency: '90%',
+    icon: 'logos:react-native',
+    iconClasses: 'text-xl',
+  },
 ];
 
 export const BACKEND_SKILLS = [

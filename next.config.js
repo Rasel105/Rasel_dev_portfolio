@@ -6,6 +6,9 @@ const nextConfig = {
     EMAIL_TEMPLATE_ID: process.env.EMAIL_TEMPLATE_ID,
     PUBLIC_KEY: process.env.PUBLIC_KEY,
   },
+  images: {
+    domains: ['imgbb.com'],
+  },
 };
 
 module.exports = nextConfig;
