@@ -6,7 +6,7 @@ import SocialLinks from '../components/social/SocialLinks';
 import HeadingAnimate from '../components/animate/HeadingAnimate';
 import LoadAnimate from '../components/animate/LoadAnimate';
 // mock
-import { contactEmail } from '../mock/profile';
+import { contactEmail, contactNumber } from '../mock/profile';
 
 // ----------------------------------------------------------------------
 
@@ -115,6 +115,18 @@ export default function Contact() {
                   <Iconify classes="text-lg text-primary-700 dark:text-primary-300" icon="clarity:email-solid" />
                   <span>{contactEmail}</span>
                 </a>
+                <div className="mt-5">
+                  <a
+                    href={`https://api.whatsapp.com/send?phone=${contactNumber}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className="inline-flex items-center space-x-2 hover:text-primary-700 dark:hover:text-primary-300">
+                      <Iconify classes="text-xl text-primary-700 dark:text-primary-300" icon="ic:baseline-whatsapp" />
+                      <p>+{contactNumber} (Whatsapp)</p>
+                    </p>
+                  </a>
+                </div>
                 <p className="my-5 leading-normal">
                   <Iconify
                     classes="inline-block text-lg mr-1 text-primary-700 dark:text-primary-300"

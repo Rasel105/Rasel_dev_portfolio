@@ -104,7 +104,7 @@ export const FRONTEND_SKILLS = [
   {
     label: 'React Native',
     proficiency: '90%',
-    icon: 'logos:react-native',
+    icon: 'tabler:brand-react-native',
     iconClasses: 'text-xl',
   },
 ];
