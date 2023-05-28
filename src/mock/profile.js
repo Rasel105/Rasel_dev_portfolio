@@ -12,9 +12,9 @@ export const SOCIAL_LINKS = [
 export const HERO_TITLES = ['Azadul Islam Rasel', 'Full-stack Developer', 'Javascript Enthusiast'];
 
 export const aboutParagraph =
-  'Highly motivated and enthusiastic Full Stack Developer with experience in designing, developing and maintaining web applications using technologies such as JavaScript, React, Node.js. ';
+  'Highly motivated and enthusiastic Full Stack Developer with experience in designing, developing and maintaining web applications using technologies such as JavaScript, React, Next, Node.js. ';
 
 export const contactEmail = 'azsrasel.dev@gmail.com';
-export const contactNumber = '8801575068398'
+export const contactNumber = '8801575068398';
 
 export const documentTitle = 'Hello I am Azadul Islam Rasel | Full Stack Developer | Javascript Enthusiast';
